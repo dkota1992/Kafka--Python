@@ -11,7 +11,8 @@ def prime(msg):
 	msgsqrt = math.sqrt(msg)
 	for i in xrange(2,msgsqrt):
 		if msg% i == 0: return False
-	return True
+	return False
+
 
 if __name__ == '__main__':
 	main()
